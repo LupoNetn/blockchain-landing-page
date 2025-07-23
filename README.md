@@ -1,12 +1,79 @@
-# React + Vite
+# Blockchain Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, responsive landing page built with React, Vite, and Tailwind CSS. This project serves as a starting point for blockchain-related web applications or promotional sites.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡ Fast development with Vite
+- 🎨 Styled using Tailwind CSS
+- 🖼️ Includes sample assets and images
+- 🚀 Ready for deployment
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v18 or higher recommended)
+- npm
+
+### Installation
+
+```sh
+npm install
+```
+
+### Development
+
+Start the development server:
+
+```sh
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Build
+
+To build for production:
+
+```sh
+npm run build
+```
+
+### Preview
+
+To preview the production build:
+
+```sh
+npm run preview
+```
+
+## Project Structure
+
+```
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   └── assets/
+│       ├── connectivity.png
+│       ├── decentralization.png
+│       ├── future-img.png
+│       ├── hero-img.png
+│       ├── neofi-logo.png
+│       ├── react.svg
+│       ├── scalability.png
+│       ├── Send.png
+│       └── Vector (1).png
+├── index.html
+├── package.json
+├── vite.config.js
+├── eslint.config.js
+└── README.md
+```
+
+## License
+
+MIT
