@@ -7,6 +7,8 @@ import Statistics from './components/Statistics'
 import Future from './components/Future'
 import Testimonials from './components/Testimonials'
 import FAQ from './components/FAQ'
+import CTA from './components/CTA'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
      <Future />
      <Testimonials />
      <FAQ />
+     <CTA />
+     <Footer />
     </div>
   )
 }
