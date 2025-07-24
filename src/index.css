@@ -10,3 +10,18 @@
   --breakpoint-mb: 425px;
   
 }
+
+@layer utilities {
+  .hero-desc {
+    @apply text-lg md:text-lg text-gray text-center md:text-left max-mb:text-[0.87rem];
+  }
+  .section-title {
+    @apply text-white mt-6 mb-2 text-center text-3xl
+  }
+  .section-desc {
+    @apply text-gray mb-6 text-center text-lg
+  }
+  .lg-max-width {
+    @apply max-w-[600px] mx-auto text-center
+  }
+}

@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="bg-black text-white p-10 min-h-screen relative"
+        className="bg-black text-white pt-10 min-h-screen relative"
       >
         {/* Radial gradient background for large screens */}
         <div
@@ -28,7 +28,7 @@ const Hero = () => {
               <h1 className="text-4xl max-mb:text-3xl md:text-7xl md:text-left text-center font-medium mt-3 mb-3">
                 Revolutionizing Web3 Finance
               </h1>
-              <p className="text-lg md:text-lg text-gray text-center md:text-left max-mb:text-[0.87rem]">
+              <p className="hero-desc">
                 Secure,Scalable, and decentralized solutions for your digital
                 assets-experience the future of financial freedom
               </p>
