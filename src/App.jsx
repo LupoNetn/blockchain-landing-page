@@ -5,6 +5,7 @@ import Partners from './components/Partners'
 import Features from './components/Features'
 import Statistics from './components/Statistics'
 import Future from './components/Future'
+import Testimonials from './components/Testimonials'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
      <Features />
      <Statistics />
      <Future />
+     <Testimonials />
     </div>
   )
 }
