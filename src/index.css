@@ -3,9 +3,10 @@
 @theme {
   --color-black: #000000;
   --color-gray: #999999;
+  --color-gray-dark: #0F0F0F;
   --color-white: #E5E5E5;
   --color-green: #9DFF3A;
 
-  --breakpoint-mb: 375px;
+  --breakpoint-mb: 425px;
   
 }
