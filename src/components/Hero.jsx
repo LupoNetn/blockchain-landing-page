@@ -36,7 +36,7 @@ const Hero = () => {
                 <button className="bg-green p-2 text-black cursor-pointer rounded-2xl w-full md:w-auto text-base md:text-lg">
                   Get Started
                 </button>
-                <button className="text-white rounded text-left p-2 cursor-pointer w-full md:w-auto text-base md:text-lg">
+                <button className="text-white text-center border border-gray rounded-2xl md:text-left p-2 cursor-pointer w-full md:w-auto text-base md:text-lg">
                   Learn More
                 </button>
               </div>

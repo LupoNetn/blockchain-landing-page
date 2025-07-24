@@ -5,7 +5,7 @@ import Logo from "../assets/neofi-logo.png";
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   return (
-    <nav className="border-b border-gray sticky top-0 z-50 bg-black backdrop-blur-2xl">
+    <nav className="border-b border-gray sticky top-0 z-50 bg-black backdrop-blur-3xl">
       <div className="container mx-auto px-6 flex items-center justify-between py-4">
         <div className="flex items-center space-x-2">
           <img src={Logo} alt="Logo" />

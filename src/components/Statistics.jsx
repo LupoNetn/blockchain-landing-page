@@ -8,8 +8,17 @@ const statistics = [
 
 const Statistics = () => {
   return (
-    <section className="bg-gray-dark py-15">
-      <div className="container px-6 mx-auto">
+    <section className="relative bg-gray-dark py-15">
+      {/* Smaller, centralized radial gradient */}
+      <div
+        className="absolute inset-0 w-full h-full pointer-events-none z-0"
+        style={{
+          background:
+            "radial-gradient(circle at 50% 50%, #1e3a8a26 0%, #000000f2 30%)",
+          opacity: 1,
+        }}
+      />
+      <div className="relative z-10 container px-6 mx-auto">
         <div className="lg-max-width">
           <div className="flex justify-center">
             <div className="text-green flex items-center border border-gray rounded-2xl px-3 py-1">

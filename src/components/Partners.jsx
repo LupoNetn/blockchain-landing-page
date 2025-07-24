@@ -16,7 +16,7 @@ const partnerImg = [
 const Partners = () => {
   return (
     <>
-      <section className="bg-gray-dark px-6 py-10">
+      <section className="bg-gray-dark px-6 py-20">
         <div>
           <p className="text-center text-3xl text-gray max-mb:text-xl">
             Satisfied partners
